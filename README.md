@@ -1,0 +1,2 @@
+# AutoSmelt
+AutoSmelt for NukkitX
