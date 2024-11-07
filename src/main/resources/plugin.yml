@@ -1,0 +1,5 @@
+name: AutoSmelt
+main: cz.stepa.autosmelt.Main
+version: "0.1"
+api: ["1.0.0"]
+author: Stepa011
