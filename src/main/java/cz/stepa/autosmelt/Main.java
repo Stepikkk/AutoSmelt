@@ -31,11 +31,11 @@ public class Main extends PluginBase implements Listener {
             count = i + 1;
         }
         //Iron Ore
-        if(block.getName().equals("Iron Ore")) {
+        if(block.getId() == 15) {
             e.setDropExp(count);
             e.setDrops(new Item[]{new ItemIngotIron(0, count)});
         //Gold Ore
-        } else if(block.getName().equals("Gold Ore")) {
+        } else if(block.getId() == 14) {
             e.setDropExp(2*count);
             e.setDrops(new Item[]{new ItemIngotGold(0, count)});
         }
